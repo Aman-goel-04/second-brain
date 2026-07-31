@@ -37,6 +37,7 @@ const linkSchema = new mongoose.Schema(
 		addedBy: {
 			type: mongoose.Schema.Types.ObjectId,
 			ref: "User",
+            required: true
 		},
 	},
 	{
